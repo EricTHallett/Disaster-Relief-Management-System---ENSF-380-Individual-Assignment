@@ -945,7 +945,7 @@ public class DatabaseQuery implements DatabaseQueryInterface {
             }
 
             String vsSql =
-                "INSERT INTO VictimSkill (victim_Id, skill_id, " +
+                "INSERT INTO VictimSkill (victim_id, skill_id, " +
                 "details, language_capabilities, certification_expiry, " +
                 "proficiency_level) VALUES (?, ?, ?, ?, ?, ?) RETURNING id";
             try (PreparedStatement ps = conn.prepareStatement(vsSql)) {

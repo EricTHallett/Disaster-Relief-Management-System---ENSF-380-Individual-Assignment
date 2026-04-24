@@ -897,7 +897,7 @@ public class CLI {
         }
 
         DisasterVictim subject = pickVictim(
-            "subject (person being sought)");
+            "Subject (person being sought)");
         String info = promptString("Details / information provided");
         LocalDate date = promptDateDefault(
             "Date of inquiry (blank = today)", LocalDate.now());
