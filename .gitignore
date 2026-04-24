@@ -1,0 +1,33 @@
+# Compiled class files
+*.class
+
+# Package files
+*.jar
+
+# Generated Javadoc
+doc/
+docs/
+
+# Build output
+bin/
+out/
+build/
+
+# Log files
+data/action_log.txt
+data/error_log.txt
+
+# Database credentials
+db.properties
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# OS files
+.DS_Store
+Thumbs.db
